@@ -1,23 +1,39 @@
 import React from 'react';
 
 export const Card = (props) => {
-  const {name, founded, seats, titles, coastOfArms, region} = props.house;
+  const { name, founded, seats, titles, coatOfArms, region, ancestralWeapons } = props.house;
 
-  console.log('card props', props);
-  const eachKey = Object.keys(props.house);
-
-  console.log('keyssss', eachKey);
-
-  const houseInfo = eachKey.map((element, index) => {
-    return <p className="card-info" key={index}>
-      {element}: {props.house[element]}
-    </p>;
+  const seat = seats.map(seat => {
+    if (seat === '') {
+      return 'NA';
+    } else {
+      return seat;
+    }
   });
 
-  return (
-    <div>
-      <h2>{name}</h2>
-      <p>I'm a card!</p>
-    </div>
-  );
+  const title = titles.map(title => {
+    if (title === '') {
+      return 'NA';
+    } else {
+      return title;
+    }
+  });
+
+  const ancestralWeapon = ancestralWeapons.map(weapon => {
+    if (title === '') {
+      return 'NA';
+    } else {
+      return weapon;
+    }
+  });
+
+  return <div>
+    <h2>{name}</h2>
+    <p>Founded: {founded}</p>
+    <p>seats: {seat}</p>
+    <p>titles: {title}</p>
+    <p>coatOfArms: {coatOfArms}</p>
+    <p>region: {region}</p>
+    <p>Ancestral Weapon: {ancestralWeapon}</p>
+  </div>;
 };

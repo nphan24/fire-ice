@@ -6,21 +6,12 @@ export const CardContainer = (props) => {
   // console.log('proppers', props);
   let displayHouses; 
 
-  // if (props.houses) {
-  //   displayHouses = props.houses.map(house => {
-  //     return (
-  //       <Card 
-  //         key={house.name}
-  //         house={house}
-  //       />
-  //     );
-  //   });
-  // } else {
-  //   displayHouses = (<p>Loading...</p>);
-  //   return displayHouses;
-  // }
   if (props.houses.length === 0) {
-    displayHouses = (<p>Loading...</p>);  
+    displayHouses = (
+      <div>
+        <p>Loading...</p>
+      </div>
+    );  
   } else {
     displayHouses = props.houses.map(house => {
       return (
