@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { fetchMembers } from '../../ApiCalls/fetchMembers';
 
 export const Card = (props) => {
-  const { name, founded, seats, titles, coatOfArms, region, ancestralWeapons } = props.house;
+  console.log('prop cards', props);
+  const { name, founded, seats, titles, coatOfArms, region, ancestralWeapons, swornMembers } = props.house;
 
   const seat = seats.map(seat => {
     if (seat === '') {
@@ -27,6 +29,12 @@ export const Card = (props) => {
     }
   });
 
+  const handleClick = async (swornMembers) => {
+    console.log('anothercall', swornMembers);
+    const members = await fetchMembers(swornMembers);
+    console.log('members', members); 
+  };
+
   return <div>
     <h2>{name}</h2>
     <p>Founded: {founded}</p>
@@ -35,5 +43,6 @@ export const Card = (props) => {
     <p>coatOfArms: {coatOfArms}</p>
     <p>region: {region}</p>
     <p>Ancestral Weapon: {ancestralWeapon}</p>
+    <button onClick={() => handleClick({swornMembers})} >See Sworn Members</button>
   </div>;
 };

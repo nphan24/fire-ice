@@ -4,7 +4,7 @@ import { shallow } from 'enzyme';
 import * as mock from '../../mockData/mockData';
 
 describe('CardContainer', () => {
-  let wrapper
+  let wrapper;
   let mockhouses = mock.data;
 
   beforeEach(() => {
