@@ -30,7 +30,6 @@ export const Card = (props) => {
   });
 
   const handleClick = async (swornMembers) => {
-    console.log('anothercall', swornMembers);
     const members = await fetchMembers(swornMembers);
     console.log('members', members); 
   };
