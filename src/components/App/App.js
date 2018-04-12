@@ -8,8 +8,7 @@ import { fetchHouse } from '../../ApiCalls/fetchHouse';
 class App extends Component {
   async componentDidMount() {
     const houses = await fetchHouse();
-    console.log('props', props);
-    // this.props.addHouses(houses);
+    this.props.addHouses(houses);
   }
 
   render() {
@@ -31,13 +30,12 @@ class App extends Component {
 }
 
 App.propTypes = {
-  fake: shape({ fake: string }),
-  fakeAction: func.isRequired
+  fake: shape({ fake: string })
 };
 
 const mapStateToProps = ({ fake }) => ({ fake });
-const mapDispatchToProps = dispatch => ({ addHouses:
-  () => dispatch(actions.addHouses(houses))
+const mapDispatchToProps = dispatch => ({ 
+  addHouses:(houses) => dispatch(actions.addHouses(houses))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
