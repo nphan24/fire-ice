@@ -11,3 +11,14 @@ describe('addHouses', () => {
     expect(actions.addHouses(houses)).toEqual(expected);
   });
 });
+
+describe('addMembers', () => {
+  it('creates a type of ADD_MEMBERS', () => {
+    const members = [{ name: 'Ngoc' }, { name: 'Weston' }];
+    const expected = {
+      type: 'ADD_MEMBERS',
+      members
+    };
+    expect(actions.addMembers(members)).toEqual(expected);
+  });
+});

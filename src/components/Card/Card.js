@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { fetchMembers } from '../../ApiCalls/fetchMembers';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
 
 export const Card = (props) => {
-  console.log('prop cards', props);
   const { name, founded, seats, titles, coatOfArms, region, ancestralWeapons, swornMembers } = props.house;
 
   const seat = seats.map(seat => {
@@ -33,10 +32,8 @@ export const Card = (props) => {
 
   const handleClick = async (swornMembers) => {
     const members = await fetchMembers(swornMembers);
-    console.log('members', members); 
-    if (members.length > 1) {
-      this.props.addMembers(members);
-    }
+    console.log('props', props);
+    props.addMembers(members);
   };
 
   return <div>
@@ -51,12 +48,12 @@ export const Card = (props) => {
   </div>;
 };
 
-const mapStateToProps = state => ({
-  members: state.members
-});
+// const mapStateToProps = state => ({
+//   members: state.members
+// });
 
 const mapDispatchToProps = dispatch => ({
   addMembers: (members) => dispatch(actions.addMembers(members))
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Card);
+export default connect(null, mapDispatchToProps)(Card);

@@ -5,6 +5,6 @@ const displayMembers = (state =[], action) => {
   default:
     return state;
   }
-}
+};
 
 export default displayMembers;
