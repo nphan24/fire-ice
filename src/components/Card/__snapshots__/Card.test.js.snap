@@ -67,6 +67,11 @@ ShallowWrapper {
           Ancestral Weapon: 
           
 </p>,
+        <button
+          onClick={[Function]}
+>
+          See Sworn Members
+</button>,
       ],
     },
     "ref": null,
@@ -190,6 +195,18 @@ ShallowWrapper {
         ],
         "type": "p",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "See Sworn Members",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "See Sworn Members",
+        "type": "button",
+      },
     ],
     "type": "div",
   },
@@ -227,6 +244,11 @@ ShallowWrapper {
             Ancestral Weapon: 
             
 </p>,
+          <button
+            onClick={[Function]}
+>
+            See Sworn Members
+</button>,
         ],
       },
       "ref": null,
@@ -349,6 +371,18 @@ ShallowWrapper {
             "",
           ],
           "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "See Sworn Members",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "See Sworn Members",
+          "type": "button",
         },
       ],
       "type": "div",

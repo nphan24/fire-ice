@@ -7,6 +7,15 @@ export const Houses = [
   }
 ];
 
+export const Members = [
+  {
+    name: 'Stark'
+  },
+  {
+    name: 'Lannister'
+  }
+];
+
 export const data = [
   {
     ancestralWeapons: [''],
