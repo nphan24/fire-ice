@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { Card } from '../Card/Card';
 
 export const CardContainer = (props) => {
-  // console.log('proppers', props);
   let displayHouses; 
 
   if (props.houses.length === 0) {

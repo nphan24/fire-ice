@@ -1,0 +1,365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    house={
+        Object {
+            "ancestralWeapons": Array [
+              "",
+            ],
+            "coatOfArms": "A golden wreath, on a blue field with a gold border(Azure, a garland of laurel within a bordure or)",
+            "founded": "",
+            "founder": "",
+            "name": "House Algood",
+            "region": "The Westerlands",
+            "seats": Array [
+              "",
+            ],
+            "swornMembers": Array [],
+            "titles": Array [
+              "",
+            ],
+            "url": "https://www.anapioficeandfire.com/api/houses/1",
+            "words": "",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          House Algood
+</h2>,
+        <p>
+          Founded: 
+          
+</p>,
+        <p>
+          seats: 
+          NA
+</p>,
+        <p>
+          titles: 
+          NA
+</p>,
+        <p>
+          coatOfArms: 
+          A golden wreath, on a blue field with a gold border(Azure, a garland of laurel within a bordure or)
+</p>,
+        <p>
+          region: 
+          The Westerlands
+</p>,
+        <p>
+          Ancestral Weapon: 
+          
+</p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "House Algood",
+        },
+        "ref": null,
+        "rendered": "House Algood",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Founded: ",
+            "",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Founded: ",
+          "",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "seats: ",
+            Array [
+              "NA",
+            ],
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "seats: ",
+          "NA",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "titles: ",
+            Array [
+              "NA",
+            ],
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "titles: ",
+          "NA",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "coatOfArms: ",
+            "A golden wreath, on a blue field with a gold border(Azure, a garland of laurel within a bordure or)",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "coatOfArms: ",
+          "A golden wreath, on a blue field with a gold border(Azure, a garland of laurel within a bordure or)",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "region: ",
+            "The Westerlands",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "region: ",
+          "The Westerlands",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Ancestral Weapon: ",
+            Array [
+              "",
+            ],
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Ancestral Weapon: ",
+          "",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            House Algood
+</h2>,
+          <p>
+            Founded: 
+            
+</p>,
+          <p>
+            seats: 
+            NA
+</p>,
+          <p>
+            titles: 
+            NA
+</p>,
+          <p>
+            coatOfArms: 
+            A golden wreath, on a blue field with a gold border(Azure, a garland of laurel within a bordure or)
+</p>,
+          <p>
+            region: 
+            The Westerlands
+</p>,
+          <p>
+            Ancestral Weapon: 
+            
+</p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "House Algood",
+          },
+          "ref": null,
+          "rendered": "House Algood",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Founded: ",
+              "",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Founded: ",
+            "",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "seats: ",
+              Array [
+                "NA",
+              ],
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "seats: ",
+            "NA",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "titles: ",
+              Array [
+                "NA",
+              ],
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "titles: ",
+            "NA",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "coatOfArms: ",
+              "A golden wreath, on a blue field with a gold border(Azure, a garland of laurel within a bordure or)",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "coatOfArms: ",
+            "A golden wreath, on a blue field with a gold border(Azure, a garland of laurel within a bordure or)",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "region: ",
+              "The Westerlands",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "region: ",
+            "The Westerlands",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Ancestral Weapon: ",
+              Array [
+                "",
+              ],
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Ancestral Weapon: ",
+            "",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

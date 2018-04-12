@@ -51,3 +51,18 @@ export const data = [
     words: 'No Foe May Pass'
   }
 ];
+
+export const house = {
+  ancestralWeapons: [''],
+  coatOfArms:
+    'A golden wreath, on a blue field with a gold border(Azure, a garland of laurel within a bordure or)',
+  founded: '',
+  founder: '',
+  name: 'House Algood',
+  region: 'The Westerlands',
+  seats: [''],
+  swornMembers: [],
+  titles: [''],
+  url: 'https://www.anapioficeandfire.com/api/houses/1',
+  words: ''
+};
